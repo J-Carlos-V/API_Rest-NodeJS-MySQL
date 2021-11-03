@@ -13,5 +13,5 @@ app.use(express.json());
 app.use(require('./routes/empleados'));
 
 app.listen(app.get('port'), () => {
-    console.log('Server on port ', app.get('port'));
+    console.log('Server on port ');
 });
