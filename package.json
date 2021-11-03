@@ -4,7 +4,6 @@
   "description": "En esta práctica definiremos las operaciones CRUD a una  BD en Mysql",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js",
     "start": "node src/index.js"
   },
   "keywords": [],
