@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "En esta práctica definiremos las operaciones CRUD a una  BD en Mysql",
   "main": "index.js",
+  "engines":{
+    "node": "12.18.4"
+  },
   "scripts": {
     "start": "node src/index.js"
   },
@@ -14,6 +17,6 @@
     "mysql": "^2.18.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.13"
+    "nodemon": "^2.0.14"
   }
 }
