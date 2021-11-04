@@ -1,6 +1,6 @@
 const mysql = require('mysql');
 
-const mysqlConnection =  mysql.createConnection({
+const mysqlConnection =  mysql.createcreatePool({
     host: 'us-cdbr-east-04.cleardb.com',
     port: '3306',
     user: 'bd27688926f172',
@@ -9,13 +9,6 @@ const mysqlConnection =  mysql.createConnection({
 });
 // mysql://bd27688926f172:b54f6127@us-cdbr-east-04.
 
-mysqlConnection.connect(function (err){
-    if(err){
-        console.log(err);
-        return;
-    }else{
-        console.log('DB esta conectada');
-    }
-});
+
 
 module.exports  = mysqlConnection;
