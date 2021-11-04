@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "En esta práctica definiremos las operaciones CRUD a una  BD en Mysql",
   "main": "index.js",
-  "engines":{
+  "engines": {
     "node": "12.18.4"
   },
   "scripts": {
